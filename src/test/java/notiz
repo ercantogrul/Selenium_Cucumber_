@@ -1,0 +1,8 @@
+7 Steps to fulfil a TestCase within Cucumber Framework:
+    1-Create test steps in feature file,
+    2-Create empty stepdefs in stepdefinition class,
+    3-Create empty Page classes are needed,
+    4-Fill the methods in StepDef class with page class object and methods
+    5-Create these methods on Page Class,
+    6-Fill the methods in Page Class with ReusableMethods,
+    7-Create webelement locators
