@@ -22,6 +22,7 @@ public class Hwork07SD {
 
     @And("sayfa basliginin {string} icerdigini test eder")
     public void sayfaBasligininIcerdiginiTestEder(String arg0) {
+        System.out.println("Driver.getDriver().getTitle() = " + Driver.getDriver().getTitle());
         Assert.assertTrue(Driver.getDriver().getTitle().contains(arg0));
     }
 }
