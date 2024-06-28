@@ -92,6 +92,7 @@ public class mentoring01 {
         clp.lastName.sendKeys("tgrl");
         clp.city.sendKeys("Kocaeli");
         clp.submitButton.click();
+
     }
 
     @Then("verify user add table")
