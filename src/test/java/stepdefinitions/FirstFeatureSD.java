@@ -26,6 +26,7 @@ public class FirstFeatureSD {
     @Then("sayfa basliginin samsung kelimesi icerdigini test eder")
     public void sayfaBasligininSamsungKelimesiIcerdiginiTestEder() {
         Assert.assertTrue(Driver.getDriver().getTitle().contains("samsung"));
+
     }
 
     @And("sayfayi kapatir")
@@ -37,6 +38,7 @@ public class FirstFeatureSD {
     public void kullaniciCucumberIcinAramaYapar() {
         gp.searchFor("cucumber");
     }
+
 
     @Then("sayfa basliginin cucumber kelimesi icerdigini test eder")
     public void sayfaBasligininCucumberKelimesiIcerdiginiTestEder() {
