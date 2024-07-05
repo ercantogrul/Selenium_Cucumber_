@@ -26,16 +26,17 @@ public class FirstFeatureSD {
     @Then("sayfa basliginin samsung kelimesi icerdigini test eder")
     public void sayfaBasligininSamsungKelimesiIcerdiginiTestEder() {
         Assert.assertTrue(Driver.getDriver().getTitle().contains("samsung"));
-
     }
 
     @And("sayfayi kapatir")
     public void sayfayiKapatir() {
+
         Driver.closeDriver();
     }
 
     @When("kullanici cucumber icin arama yapar")
     public void kullaniciCucumberIcinAramaYapar() {
+
         gp.searchFor("cucumber");
     }
 
